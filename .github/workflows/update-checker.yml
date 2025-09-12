@@ -16,8 +16,7 @@ env:
   REPO_BRANCH: openwrt-24.10-6.6
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
+
 
 jobs:
   check:
